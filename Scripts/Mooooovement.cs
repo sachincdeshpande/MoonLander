@@ -9,7 +9,7 @@ public class Mooooovement : MonoBehaviour {
     // fields that control how this object moves
     // declared public so unity may initialize correctly when specified in the development kit
     public Vector3 point1;                      // the object's current position
-	public Vector3 point2;                      // point the object will go towards
+    public Vector3 point2;                      // point the object will go towards
     public Vector3 translator;                  // vector to translate the object back to original position
     public float speed;                         // how fast the object will move
     public double travelTime;                   // how long the object will travel for
