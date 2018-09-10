@@ -13,7 +13,7 @@ public class Mooooovement : MonoBehaviour {
     public Vector3 translator;                  // vector to translate the object back to original position
     public float speed;                         // how fast the object will move
     public double travelTime;                   // how long the object will travel for
-    public double elapsedTime;                  // how much time has elapsed (used to reset object) 
+    public double elapsedTime;                  // how much time has elapsed (used to reset object)  
 
     // Used for initialization
     // Default method included when script is utilized
