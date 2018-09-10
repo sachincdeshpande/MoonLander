@@ -33,7 +33,7 @@ public class PlayerControls : MonoBehaviour {
             // make spaceship go up
 	    rb.AddForce (new Vector3 (0, thrust_strength, 0));
 	}
-	   if(Input.GetKey("a") || Input.GetKey(KeyCode.LeftArrow)) {
+	if(Input.GetKey("a") || Input.GetKey(KeyCode.LeftArrow)) {
             // make spaceship go left
             rb.AddForce (new Vector3(-speed,0,0));
 	}
@@ -54,6 +54,6 @@ public class PlayerControls : MonoBehaviour {
         }
         // update spaceship's position
         transform.position = new Vector3 (transform.position.x, transform.position.y, 0);
-	}
+    }
 }
 
